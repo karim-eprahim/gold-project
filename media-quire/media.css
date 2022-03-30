@@ -1,0 +1,109 @@
+ /* Mobile */
+ @media (max-width:767px){
+    .container .points{
+        width: 17vw;
+        height: 3vh;
+    }
+    .container .shop{
+        width: 90%;
+        margin: 20px auto;
+    }
+    .container .shop h1{
+        font-size: 35px;
+        letter-spacing: 0.8px;
+        color: rgba(87, 84, 84, 0.842);
+    }
+    .container .shop h1 span {
+        font-size:55px;
+    }
+    .container .shop .gold{
+        width: 100%;
+        border-radius: 10px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        border: 1px solid gray;
+
+    }
+    .container .shop .gold div{
+        width: 40%;
+        height: 20vh;
+    }
+    .new-pro  .products div img{
+        height: 15vh;
+    }
+    .new-pro  .products div p{
+        border-radius: 5px;
+        padding: 5px;
+    }
+    .mor-sell  .sell div img{
+        height: 11vh;
+    }
+}
+
+
+
+
+
+
+/* small screans */
+@media (min-width:768px){
+    
+}
+
+/* medium screans */
+@media (min-width:992px){
+
+}
+
+/* large screans */
+@media (min-width:1200px){
+    .header div{
+        width: 25%;
+        display: flex;
+        justify-content: center;
+        row-gap: 10px;
+    }
+    .header img{
+        width: 60px ;
+        height: 40px;
+        margin-top: 16px;
+    }
+    .header .name img{
+        width: 70px ;
+        height: 50px;
+        margin-top: 12px;
+    }
+    .header .search input{
+        margin-top: 25px;
+        width: 100%;
+        height: 18px;
+        border-radius: 5px;
+        border: none;
+    }
+    .banner1 img{
+        width: 100%;
+    }
+    /**********************************************/
+    .advantages {
+        width: 90%;
+        margin: auto;
+        height: 15vh;
+        /* border: 2px solid; */
+        margin-top: 20px;
+        display: flex;
+        justify-content: space-around;
+    }
+    .advantages div {
+        padding: 20px;
+        width: 50%;
+        height: 11vh;
+        border: 2px solid gray;
+        display: flex;
+        font-size: 22px;
+        font-weight: bold;
+        border-radius: 10px;
+        justify-content: space-around;
+        gap: 10px;
+    }
+}

@@ -1,0 +1,250 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    margin: auto;
+}
+
+       /*************
+       ******** HEADER *****
+              **************/
+
+.header{
+    width: 100%;
+    height: 8vh;
+    background-color:rgb(159 147 147);
+    display: flex;
+    justify-content: space-around;
+
+}
+.header div{
+    width: 25%;
+    display: flex;
+    justify-content: center;
+}
+.header img{
+    width: 30px ;
+    height: 28px;
+    margin-top: 16px;
+}
+.header .name img{
+    width: 70px ;
+    height: 50px;
+    margin-top: 12px;
+}
+.header .search input{
+    margin-top: 25px;
+    width: 100%;
+    height: 18px;
+    border-radius: 5px;
+    border: none;
+}
+.banner1 img{
+    width: 100%;
+}
+
+       /*************
+       ******** POINTS *****
+              **************/
+
+.container .points{
+    width: 14vw;
+    height: 3vh;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.container .points div {
+    width: 12px;
+    height: 12px;
+    background-color: gray;
+    border-radius: 50%;
+    transition: 0.4s;
+}
+.container .points div:hover{
+    width: 18px;
+    height: 18px;
+}
+
+       /*************
+       ******** CATEGORY *****
+              **************/
+
+.container .shop{
+    width: 90%;
+    margin: 30px auto;
+}
+.container .shop h1{
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    padding: 10px;
+    color: rgba(87, 84, 84, 0.842);
+}
+.container .shop h1 span {
+    font-size: 80px;
+
+}
+.container .shop .gold{
+    width: 100%;
+    border-radius: 10px;
+    display: flex;
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid gray;
+    padding: 15px;
+}
+.container .shop .gold div{
+    width: 15vw;
+    height: calc(width);
+    text-align: center;
+    font-size: 25px;
+    margin-top: 2.5vw;
+    
+}
+.container .shop .gold img{
+    width: 100%;
+    height: 80%;
+    border: 1px solid gold;
+    border-radius: 50%;
+}
+
+       /*************
+       ******** اجدد المنتجات *****
+              **************/
+.new-pro{
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.new-pro h1{
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: rgba(87, 84, 84, 0.842);
+    background-color: white;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.new-pro  .products {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+.new-pro  .products div{
+    width: 30%;
+}
+.new-pro  .products div p{
+    border: 2px solid gray;
+    border-radius: 5px;
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+}
+.new-pro  .products div img{
+    width: 100%;
+    height: 30vh;
+    border-radius: 5px;
+    position: relative;
+}
+
+       /*************
+       ******** الاكثر مبيعا*****
+              **************/
+.mor-sell h2{
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: rgba(87, 84, 84, 0.842);
+    background-color: white;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.mor-sell .sell{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+.mor-sell  .sell div{
+    width: 20%;
+}
+.mor-sell  .sell div p{
+    border: 2px solid gray;
+    border-radius: 5px;
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+}
+.mor-sell  .sell div img{
+    width: 100%;
+    height: 25vh;
+    border-radius: 5px;
+    position: relative;
+}
+       /*************
+       ******** ADVANTAGES*****
+              **************/
+.advantages {
+    width: 100%;
+    height: 15vh;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+.advantages div{
+    padding: 20px;
+    width: 45%;
+    height: 15vh;
+    display: flex;
+    gap: 10px;
+}
+.advantages div img{
+    border-radius: 50%;
+    width: 30px ;
+    height: 28px;
+    order: 2;
+}
+       /*************
+       ******** FOOTER*****
+              **************/
+.footer{
+    width: 90%;
+    height: 20vh;
+    background-color: rgb(167, 164, 164);
+    margin: auto;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    font-size: 18px;
+}
+.footer .visa{
+    
+}
+.footer .visa img{
+    width: 120px;
+    background-color: white;
+    margin: 6px 0;
+}
+.footer .visa .so img{
+    width: 30px;
+    margin-right: 8px;
+    background-color: transparent;
+}
+.footer .cont{
+
+}
+.footer .cont ul{
+    direction: rtl;
+
+}
